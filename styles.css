@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 100%;
+}
+
+.container {
+  width: clamp(320px, 100%, 1280px);
+  margin: 0 auto;
+}
+
+.header {
+  height: 80px;
+}
+
+.main {
+  min-height: calc(100vh - 160px);
+}
