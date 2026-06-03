@@ -105,10 +105,15 @@ body {
 
 .main__slides-info {
   display: flex;
-  flex-direction: wrap;
   margin-top: 0.2rem;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 459px) {
+    margin-top: 0.4rem;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
 }
 
 .main__slide {
@@ -121,6 +126,10 @@ body {
 
 .main__slides-text {
   width: 100%;
+
+  @media (max-width: 459px) {
+    order: 2;
+  }
 }
 
 .main__slide-text {
@@ -137,6 +146,10 @@ body {
 .main__controls {
   white-space: nowrap;
   font-size: 0;
+
+  @media (max-width: 459px) {
+    order: 1;
+  }
 }
 
 .main__control {
