@@ -39,7 +39,7 @@ body {
   aspect-ratio: 1;
 
   @media (orientation: landscape) {
-    max-height: 78vh;
+    max-height: 80vh;
   }
 
   @media (orientation: portrait) {
