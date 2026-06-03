@@ -6,6 +6,7 @@
   --dot-border: var(--black-color);
   --dot-marker: var(--black-color);
   --dot-hover: #273a09;
+  --dot-hover-checked: #7a8304;
 }
 
 body {
@@ -65,6 +66,13 @@ body {
 #main__btn-3:checked~.main__slides-info .main__controls .main__control[for="main__btn-3"] .main__control-dot,
 #main__btn-4:checked~.main__slides-info .main__controls .main__control[for="main__btn-4"] .main__control-dot {
   background-color: var(--dot-marker);
+}
+
+#main__btn-1:hover:checked~.main__slides-info .main__controls .main__control[for="main__btn-1"] .main__control-dot,
+#main__btn-2:hover:checked~.main__slides-info .main__controls .main__control[for="main__btn-2"] .main__control-dot,
+#main__btn-3:hover:checked~.main__slides-info .main__controls .main__control[for="main__btn-3"] .main__control-dot,
+#main__btn-4:hover:checked~.main__slides-info .main__controls .main__control[for="main__btn-4"] .main__control-dot {
+  background-color: var(--dot-hover-checked);
 }
 
 #main__btn-1:checked~.main__container .main__slide {
