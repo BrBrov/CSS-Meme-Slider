@@ -2,6 +2,10 @@
   --white-color: #fff;
   --black-color: #000;
   --title-color: #472006;
+  --link-hover-color: #331172;
+  --dot-border: var(--black-color);
+  --dot-marker: var(--black-color);
+  --dot-hover: #273a09;
 }
 
 body {
@@ -60,7 +64,7 @@ body {
 #main__btn-2:checked~.main__slides-info .main__controls .main__control[for="main__btn-2"] .main__control-dot,
 #main__btn-3:checked~.main__slides-info .main__controls .main__control[for="main__btn-3"] .main__control-dot,
 #main__btn-4:checked~.main__slides-info .main__controls .main__control[for="main__btn-4"] .main__control-dot {
-  background-color: var(--black-color);
+  background-color: var(--dot-marker);
 }
 
 #main__btn-1:checked~.main__container .main__slide {
@@ -137,6 +141,7 @@ body {
   display: inline-block;
   margin: 0;
   font-size: 1rem;
+  color: var(--title-color);
 }
 
 .main__slide-text:nth-child(1n + 2) {
@@ -159,13 +164,17 @@ body {
   cursor: pointer;
 }
 
+.main__control:hover .main__control-dot {
+  border-color: var(--dot-hover);
+}
+
 .main__control-dot {
   width: 50%;
   aspect-ratio: 1/1;
   margin: 0 auto;
   transform: translateY(20%);
   border-radius: 50%;
-  border: 0.16rem solid var(--black-color);
+  border: 0.16rem solid var(--dot-border);
 }
 
 .footer {
@@ -182,4 +191,8 @@ body {
   font-size: 3vh;
   color: var(--title-color);
   cursor: pointer;
+}
+
+.footer__link:hover {
+  color: var(--link-hover-color);
 }
