@@ -36,7 +36,16 @@ body {
 }
 
 .main__slider {
-  width: 60%;
+  aspect-ratio: 1;
+
+  @media (orientation: landscape) {
+    max-height: 78vh;
+  }
+
+  @media (orientation: portrait) {
+    width: 80%;
+    max-height: none;
+  }
 }
 
 .main__clicker {
@@ -104,19 +113,18 @@ body {
 
 
 .main__controls {
-  padding-top: 10px;
   margin: 0 auto;
 }
 
 .main__slides-text {
   width: 100%;
-  margin: 0;
   text-align: start;
 }
 
 .main__slide-text {
   width: 100%;
   display: inline-block;
+  margin: 0.4rem 0;
   font-size: 1rem;
 }
 
@@ -126,9 +134,13 @@ body {
 
 .main__control {
   display: inline-block;
-  width: 4%;
+  width: 2%;
   aspect-ratio: 1/1;
   cursor: pointer;
+}
+
+.main__control:nth-child(n + 2) {
+  margin-left: 1%;
 }
 
 .main__control-dot {
