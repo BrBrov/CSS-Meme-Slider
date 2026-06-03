@@ -4,9 +4,10 @@
   --title-color: #472006;
   --link-hover-color: #331172;
   --dot-border: var(--black-color);
-  --dot-marker: var(--black-color);
-  --dot-hover: #273a09;
-  --dot-hover-checked: #7a8304;
+  --dot-marker: var(--white-color);
+  --dot-unmarked: var(--black-color);
+  --dot-hover: #20b6d8;
+  --dot-hover-checked: #790606;
   --bg-text-slide1: #84aaa8;
   --bg-text-slide2: #8fc480;
   --bg-text-slide3: #cac68f;
@@ -209,7 +210,8 @@ body {
   margin: 0 auto;
   transform: translateY(20%);
   border-radius: 50%;
-  border: 0.16rem solid var(--dot-border);
+  border: 0.18rem solid var(--dot-border);
+  background-color: var(--dot-unmarked);
 }
 
 .footer {
