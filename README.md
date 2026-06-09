@@ -21,11 +21,11 @@ Build a slider using pure HTML and CSS - **no JavaScript allowed**. The slider m
 
 Desktop preview:
 
-<kbd>![screenshot](assets/fullScreen.gif)</kbd>
+<kbd>![screenshot](https://github.com/rolling-scopes-school/tasks/blob/451577fab388c6ac99e282680343307f608b3452/stage0.5%20Bootcamp/tasks/css-meme-slider/assets/fullScreen.gif)</kbd>
 
 Mobile preview:
 
-<kbd>![screenshot](assets/mobileView.gif)</kbd>
+<kbd>![screenshot](https://github.com/rolling-scopes-school/tasks/blob/451577fab388c6ac99e282680343307f608b3452/stage0.5%20Bootcamp/tasks/css-meme-slider/assets/mobileView.gif)</kbd>
 
 ## Requirements
 
@@ -34,11 +34,11 @@ Mobile preview:
 - The slider is centered on the page with equal margins on the left and right
 - Desktop layout of images, captions, and controls:
 
-<kbd>![screenshot](assets/fullScreenGrid.png)</kbd>
+<kbd>![screenshot](https://github.com/rolling-scopes-school/tasks/blob/451577fab388c6ac99e282680343307f608b3452/stage0.5%20Bootcamp/tasks/css-meme-slider/assets/fullScreenGrid.png)</kbd>
 
 - Mobile layout of images, captions, and controls:
 
-<kbd>![screenshot](assets/mobileGrid.png)</kbd>
+<kbd>![screenshot](https://github.com/rolling-scopes-school/tasks/blob/451577fab388c6ac99e282680343307f608b3452/stage0.5%20Bootcamp/tasks/css-meme-slider/assets/mobileGrid.png)</kbd>
 
 ### Functionality
 
@@ -50,7 +50,7 @@ Mobile preview:
 
 Controls effects example:
 
-<kbd>![screenshot](assets/controlsEffects.gif)</kbd>
+<kbd>![screenshot](https://github.com/rolling-scopes-school/tasks/blob/451577fab388c6ac99e282680343307f608b3452/stage0.5%20Bootcamp/tasks/css-meme-slider/assets/controlsEffects.gif)</kbd>
 
 > The yellow circle in the preview is a screen recorder's mouse indicator - you do not need to implement or score it.
 
